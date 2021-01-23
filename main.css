@@ -1,6 +1,6 @@
 h1 {
-  font-family:Arial;
-  color:teal;
+  	font-family:Arial;
+  	color:teal;
 }
 
 
@@ -9,9 +9,10 @@ h3 {
 
 }
 
-.aboutmeparagraph {
-  display: flex;   
-  flex-wrap: wrap;
+.wrappedimg {
+   	float: left;
+	margin: 10px;
+	
 }
 
 /*************************************
@@ -19,7 +20,7 @@ Resume
 **************************************/
 
 #header {
-  text-align: center;
+  	text-align: center;
 }
 
 body {

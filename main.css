@@ -3,6 +3,11 @@ h1 {
   	color:teal;
 }
 
+h3 {
+  	font-family:Arial;
+  	color:teal;
+}
+
 .wrappedimg {
    	float: left;
 	margin: 25px;

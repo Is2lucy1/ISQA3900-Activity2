@@ -14,9 +14,9 @@ h3 {
 }
 
 #links {
-	outline-style: solid;
-	outline-width: 0.5px;
-	outline-color: black;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: black;
 }
 	
 .links {

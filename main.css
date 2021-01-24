@@ -14,10 +14,15 @@ h3 {
 }
 
 #links {
-	margin: 50px;
 	outline-style: solid;
 	outline-width: 0.5px;
 	outline-color: black;
+}
+	
+.links {
+	margin: 10px;
+}
+	
 /*************************************
 Resume
 **************************************/

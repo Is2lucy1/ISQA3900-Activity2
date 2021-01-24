@@ -8,6 +8,10 @@ h3 {
   	color:teal;
 }
 
+h3 {
+  	font-family:Arial;
+  	color:dark blue;
+}
 .wrappedimg {
    	float: left;
 	margin: 25px;

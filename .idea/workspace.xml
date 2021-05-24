@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3564faff-5ef7-4c01-85df-ee7c22379145" name="Default Changelist" comment="Changing entry page">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <workItem from="1621542814391" duration="34412000" />
       <workItem from="1621644222860" duration="138000" />
       <workItem from="1621644882359" duration="6068000" />
-      <workItem from="1621818966907" duration="1162000" />
+      <workItem from="1621818966907" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="First commit of basic pages">
       <created>1621819048751</created>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621820097491</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changing entry page">
+      <created>1621820305141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621820305141</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

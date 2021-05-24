@@ -219,25 +219,41 @@ ul {
 
 
 .accordion {
-  background-color: lightgray;
+  background-color: white;
   color: black;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
   border: none;
   outline: none;
+  transition: 0.4s;
   width: 100%;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
 }
 
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: auto;
+  max-height: 0;
   overflow: hidden;
   border-left-width: 1px;
   border-left-style: solid;
   border-color: lightgray;
+
 }
 
+.pproject {
+  padding: 2px;
+}
+
+.pdate {
+  font-family: Menlo;
+  font-size: 13px;
+  color: cadetblue;
+}
 .ptools {
   font-family: Menlo;
   font-size: 12px;

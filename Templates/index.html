@@ -111,10 +111,10 @@
         <div id="projects">
         <h2>Projects</h2>
         <hr>
-            <div class="accordion"> 1. Kits Inventory Tracking System (KITS)</div>
+            <div class="accordion"><div class="pposition">1. Kits Inventory Tracking System (KITS)</div></div>
             <div class="panel">
                 <p>
-                    <br>
+                    <div class="pdate">Jan 2021 - May 2021</div>
                     This web application allows researchers involved in human clinical trials to track and organize their research kits.
                     <br>
                     <br>
@@ -136,7 +136,22 @@
                 <div class="panel"><br>This project focused primarily on project planning and initiation involved in the SDLC.
                 </div>
 
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
 
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+            </script>
 
             <div class="dropdown">
                 <li>Project Charter</li>

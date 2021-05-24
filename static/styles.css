@@ -1,0 +1,264 @@
+
+@charset "UTF-8";
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Noto Sans";
+  color: #194350;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: Menlo;
+
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+p {
+  line-height: 1.2;
+  float: left;
+  margin: 0 auto;
+}
+
+img {
+  float: center;
+  align-items: right;
+  padding: 5px;
+
+}
+
+.header {
+  background-color: #e1e5ea;
+  padding: 20px;
+  font-family: "Saira Extra Condensed";
+  width: 100%;
+}
+
+.h1.right {
+  text-align: right;
+}
+
+div {
+  border: 2px black;
+  padding: 5px;
+  margin: 5px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  margin: 0 auto;
+}
+
+.company {
+  padding-left: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.position {
+  padding-top: 10px;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  float: left;
+  line-height: 1;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.date {
+  white-space: nowrap;
+  text-align: right;
+  float: right;
+  justify-content: flex-end;
+  overflow: hidden;
+  margin: 0 auto;
+  width:25%;
+  color: #28527a;
+
+}
+
+
+
+
+.column {
+  float: left;
+}
+
+.column.left {
+  width: 18%;
+  padding-left: 10px;
+  padding-right: 20px;
+  float: center;
+  text-align: center;
+}
+
+
+.column.img {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: left;
+  justify-items: left;
+}
+
+.column.middle {
+  width: 50%;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  border-width: 2px;
+  padding-left: 20px;
+}
+
+.column.right {
+  width: 28%;
+}
+
+.column.project {
+  width: 78%;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  border-width: 2px;
+  padding-left: 20px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 20px;
+  border: 2px lightgray;
+  border-style: solid;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #050520;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+
+/* Styling the area of the slides */
+#slideshow {
+  overflow: hidden;
+  height: 500px;
+  width: 210px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 500px;
+  width: 210px;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+  /* Calculate the total width on the
+  basis of number of slides */
+  width: calc(210px * 4);
+
+  /* Specify the animation with the
+  duration and speed */
+  animation: slide 20s ease infinite;
+}
+
+/* Set the background color
+of each of the slides */
+.slide:nth-child(1) {
+  background: url("..//static/images/clean_shirt.png");
+}
+
+.slide:nth-child(2) {
+  background: pink;
+}
+
+.slide:nth-child(3) {
+  background: red;
+}
+
+.slide:nth-child(4) {
+  background: yellow;
+}
+
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+  /* Calculate the margin-left for
+  each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+
+  40% {
+    margin-left: calc(-210px * 1);
+  }
+
+  60% {
+    margin-left: calc(-210px * 2);
+  }
+
+  80% {
+    margin-left: calc(-210px * 3);
+  }
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  top: 100%;
+
+}

@@ -1,14 +1,20 @@
 <!DOCTYPE html>
+
+
   <head>
     <meta charset="UTF-8">
-    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <link href="../main.css" type="text/css" rel="stylesheet"/>
     <title>About Lucy Chung</title>
   </head>
+
+
   <body>
+    {% extends 'Templates/base.html' %}
+    <div class="container text-center" style="padding-top: 15%;">
     <h1>Hello! I'm Lucy (Lu) Chung..</h1>
     <br>
     <br>
-    <img src="lucyprofile.jpg" alt="selfie of me" width="220" class="wrappedimg"/>
+    <img src="..//Photos/lucyprofile.jpg" alt="selfie of me" width="220" class="wrappedimg"/>
     
     <p class="aboutmeparagraph">
         I put parenthesis around "Lu" because my middle nap is actually self-declared. While all of my other family members seem to have middle names,
@@ -59,12 +65,16 @@
     
       <p class="links"> 
       <h3>For more information about me</h3>
-      <a href="index2.html">My Non-Traditional Resume</a>
-      <br>
-      <a href="https://www.linkedin.com/in/lucychung-2023/" target="_blank">My LinkedIn Account</a> 
-      <br>
-      <a href="https://www.enneagraminstitute.com/type-3" target="_blank">My Past Projects</a>
+        <a href="projects.html">Projects</a>
+        <br>
+        <a href="resume.html">My Non-Traditional Resume</a>
+        <br>
+        <a href="https://www.linkedin.com/in/lucychung-2023/" target="_blank">My LinkedIn Account</a>
+        <br>
+        <a href="https://www.enneagraminstitute.com/type-3" target="_blank">My Past Projects</a>
       </p>
-    </body> 
-    
+    </div>
+    </body>
+
+
 </html>

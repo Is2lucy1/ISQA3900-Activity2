@@ -116,7 +116,7 @@
       <workItem from="1621542814391" duration="34412000" />
       <workItem from="1621644222860" duration="138000" />
       <workItem from="1621644882359" duration="6068000" />
-      <workItem from="1621818966907" duration="628000" />
+      <workItem from="1621818966907" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="First commit of basic pages">
       <created>1621819048751</created>
@@ -139,7 +139,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621819584310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changing entry page">
+      <created>1621819638879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621819638879</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changing entry page">
+      <created>1621819729908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621819729908</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changing entry page">
+      <created>1621819764034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621819764034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +185,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changing entry page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Portfolio$server.coverage" NAME="server Coverage Results" MODIFIED="1621650960984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$server.coverage" NAME="server Coverage Results" MODIFIED="1621819906083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

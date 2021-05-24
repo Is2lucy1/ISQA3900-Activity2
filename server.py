@@ -2,6 +2,10 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route('https://is2lucy1.github.io/Portfolio/')
+def enter():
+    return render_template('home.html')
+
 @app.route('/')
 def home():
     return render_template('home.html')

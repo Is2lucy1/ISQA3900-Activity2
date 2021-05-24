@@ -5,6 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .header {
   background-color: #e1e5ea;
   font-family: "Saira Extra Condensed";
@@ -218,27 +219,20 @@ ul {
 
 
 .accordion {
-  background-color: white;
+  background-color: lightgray;
   color: black;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
   border: none;
   outline: none;
-  transition: 0.4s;
   width: 100%;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
 }
 
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
+  max-height: auto;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
   border-left-width: 1px;
   border-left-style: solid;
   border-color: lightgray;

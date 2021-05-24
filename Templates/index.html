@@ -2,18 +2,56 @@
 <html lang="en">
 
 
-{% extends "base.html" %}
-{% block content %}
-
 <head>
-    <meta charset="UTF-8">
-    <title>About Lucy Chung</title>
+    <title>Lucy Chung's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="shortcut icon" type="image/png" href="static/images/lucyprofile.jpb' %}">
+
+    <!-- Add Bootstrap JS plugins for certain CSS components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </head>
 
+<body>
+    <div class="header">
+        <h1>Lucy Chung's Portfolio</h1>
 
-  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="margin-bottom: 5px; background-color: #e1e5ea; ">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+          <div class="navbar-nav mb-2 mb-lg-0">
+              <a class="nav-link" aria-current="page" href="/home">About Me</a>
+              <a class="nav-link" href="Templates/projects.html">Projects</a>
+              <a class="nav-link" href="/experience">Research</a>
+          </div>
+        </div>
+    </nav>
 
-    <div class="column middle">
+    </div>
+
+
+        <div class="column left">
+            <div class="column img">
+                <img src="static/images/lucyprofile.jpg" alt="selfie" width="220"/>
+            </div>
+            <hr>
+            <h3>Connect</h3>
+                chung.lucy96@yahoo.com
+                <br>
+                LinkedIn.com/in/lucychung-2023
+        </div>
+
+   <div id="context">
+        <div id="parent"></div>
+   </div>
+    <div id="overlay">
+    </div>
+    <div id="modal">
+        <div class="column middle">
         <h2>About me</h2>
             <hr>
             <p>
@@ -34,9 +72,9 @@
                 <br>
                 <br>
             </p>
-    </div>
+        </div>
 
-    <div class="column right">
+    <div class="columnn right">
         <div class="container">
             <h3><strong>Education</strong></h3>
                 <p>
@@ -47,11 +85,52 @@
                         <br>Bachelors in Neuroscience</li>
                       <li><strong>Faculty-lead Study Abroad</strong>
                         <br>Social Justice in Petionville, Haiti</li>
-        </ul><p>
                     </ul>
                 </p>
-            <hr>
-            <h3 style="font-family: Menlo""><strong>Programming</strong></h3>
+
+        </div>
+    </div>
+
+
+    <div class="column middle">
+        <h2>Projects</h2>
+        <hr>
+            <h4>Kits Inventory Tracking System (KITS)</h4>
+            This web application allows researchers involved in human clinical trials to track and organize their research kits.
+            <br>
+            <br>
+            <b>Tools:</b> Django.py, SQL, Selenium testing software, Trello
+       <hr>
+
+            <h4>Intersection Simulator</h4>
+            This program simulates road intersections and allow users to make modifications to test the flow of traffic.
+            This simulation uses process-based discrete-events and data visualization tools to report results.
+            <br>
+            <br>
+            <b>Tools:</b> Simpy, Madplotlib, Numpy, Pandas
+
+        <hr>
+            <h4>SqueakyClean Project Planning</h4>
+
+            This project focused primarily on project planning and initiation involved in the SDLC.
+            <br>
+
+            <div class="dropdown">
+                <li>Project Charter</li>
+                    <div class="dropdown-content">
+                        <img src="..//static/images/SqueakyClean Project Charter.png" alt="box" width="200"/>
+                    </div>
+            </div>
+            <img src="..//static/images/clean_shirt.png" alt="box" width="120"/>
+            <br>
+            <br>
+        </p>
+
+    </div>
+
+    <div class="columnn right">
+        <div class="container">
+        <h3 style="font-family: Menlo""><strong>Programming</strong></h3>
                 <p>
                     <ul>
                       <li>C++</li>
@@ -63,14 +142,15 @@
                       <li>CSS</li>
                     </ul>
                 </p>
+
         </div>
     </div>
-
-
-
     </div>
+
+
+
     </body>
 
-    {% endblock %}
+
 
 </html>

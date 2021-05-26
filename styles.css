@@ -10,7 +10,7 @@ html {
   background-color: #e1e5ea;
   font-family: "Saira Extra Condensed";
   width: 100%;
-  height: 21.2%;
+  height: 24%;
   position: fixed;
   z-index: 1;
 }
@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-family: Menlo;
 
 }
@@ -65,20 +65,27 @@ div {
 }
 
 li {
-  margin-bottom: 8px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0px;
   font-size: 14px;
+
 }
 
 ul {
   margin-top: 10px;
   margin-bottom: 12px;
   margin: 0 auto;
+  text-align: left;
+  padding-left: 16px;
 }
+
 
 .company {
   padding-left: 0;
   width: 100%;
   margin: 0 auto;
+  font-size: 15px;
 }
 .position {
   padding-top: 10px;
@@ -93,6 +100,11 @@ ul {
   width: 75%;
 }
 
+.location {
+  color: #28527a;
+  font-size: 15px;
+}
+
 .date {
   white-space: nowrap;
   text-align: right;
@@ -100,13 +112,14 @@ ul {
   justify-content: flex-end;
   overflow: hidden;
   margin: 0 auto;
+  font-family: Menlo;
+  font-size: 14px;
+  font-weight: bold;
   width:25%;
   color: #28527a;
 
+
 }
-
-
-
 
 .column {
   float: left;
@@ -165,7 +178,7 @@ ul {
 
 
 .column.middle {
-  width: 55%;
+  width: 53%;
   margin-left: 20%;
   margin-bottom: 7.5%;
   padding-bottom:7.5%;
@@ -174,7 +187,7 @@ ul {
 }
 
 .column.right {
-  width: 20%;
+  width: 22%;
   margin-top: 7%;
   margin-right: 2.5%;
   float: right;
@@ -228,10 +241,36 @@ ul {
   outline: none;
   transition: 0.4s;
   width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e1e5ea;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #e1e5ea;
+}
+
+.project {
+  padding: 2px;
+  text-align: left;
+  float: left;
+  width: 82%;
+  line-height: 1;
+}
+
+.pdate {
+  font-family: Menlo;
+  font-style: normal;
+  font-size: 14px;
+  color: #28527a;
+  width: 18%;
+  justify-content: flex-end;
+}
+.ptools {
+  font-family: Menlo;
+  font-size: 12px;
+  text-align: right;
+  float: right;
 }
 
 .panel {
@@ -242,20 +281,16 @@ ul {
   border-left-width: 1px;
   border-left-style: solid;
   border-color: lightgray;
+  text-align: left;
 
 }
 
-.pproject {
-  padding: 2px;
+
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
 }
 
-.pdate {
-  font-family: Menlo;
-  font-size: 13px;
-  color: cadetblue;
-}
-.ptools {
-  font-family: Menlo;
-  font-size: 12px;
-  text-align: right;
-}
+

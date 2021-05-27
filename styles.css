@@ -1,10 +1,6 @@
 
 @charset "UTF-8";
 
-html {
-  scroll-behavior: smooth;
-}
-
 
 .header {
   background-color: #e1e5ea;
@@ -30,7 +26,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Menlo;
 
 }
@@ -67,8 +63,8 @@ div {
 li {
   padding: 0;
   margin: 0;
-  margin-bottom: 0px;
-  font-size: 14px;
+  margin-bottom: 2px;
+  font-size: 15px;
 
 }
 
@@ -126,7 +122,7 @@ ul {
 }
 
 .column.left {
-  width: 18%;
+  width: 16%;
   height: 100%;
   position: fixed;
   padding-left: 10px;
@@ -178,7 +174,7 @@ ul {
 
 
 .column.middle {
-  width: 53%;
+  width: 51%;
   margin-left: 20%;
   margin-bottom: 7.5%;
   padding-bottom:7.5%;
@@ -187,7 +183,7 @@ ul {
 }
 
 .column.right {
-  width: 22%;
+  width: 25%;
   margin-top: 7%;
   margin-right: 2.5%;
   float: right;
@@ -254,7 +250,7 @@ ul {
   padding: 2px;
   text-align: left;
   float: left;
-  width: 82%;
+  width: 81%;
   line-height: 1;
 }
 
@@ -263,7 +259,7 @@ ul {
   font-style: normal;
   font-size: 14px;
   color: #28527a;
-  width: 18%;
+  width: 19%;
   justify-content: flex-end;
 }
 .ptools {

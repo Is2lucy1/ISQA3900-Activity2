@@ -1,4 +1,3 @@
-h1 {
   	font-family:Arial;
   	color:teal;
 }
@@ -26,12 +25,4 @@ h3 {
 Resume
 **************************************/
 
-#header {
-  	text-align: center;
-}
-
-body {
-	margin: 50px 100px;
-	background-color: light blue;
-  }
 

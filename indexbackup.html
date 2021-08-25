@@ -14,40 +14,42 @@
     <!-- Add Bootstrap JS plugins for certain CSS components -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="javascript.js" async=""></script>
 </head>
 
 <body>
-    <div class="header">
+    <!-- <div class="header">-->
 
-        <h1>Lucy Chung's Portfolio</h1>
-    </div>
-    <div class="nav">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarText">
-          <div class="navbar-nav mb-2 mb-lg-0">
-              <a class="nav-link" href="#home"> About Me </a>
-              <a class="nav-link" href="#skills"> Skills </a>
-              <a class="nav-link" href="#projects"> Projects </a>
-              <a class="nav-link" href="#research"> Research/Experience </a>
-          </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Research Experience</a></li>
+            </ul>
+        </nav>
+        <button class="btn" id="1" onClick="show(this.id)">About Me</button>
+        <button class="btn" id="2" onClick="show(this.id)">Skills</button>
+        <button class="btn" id="3" onClick="show(this.id)">Projects</button>
+        <button class="btn" id="4" onClick="show(this.id)">Research Experience</button>
+    <!-- </div> -->
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Hello, I am <br>Lucy Chung</h1>
         </div>
-    </nav>
-    </div>
+    </section>
 
-        <div class="column left">
-
-            <div class="column img">
-                <img src="static/images/lucyprofile.jpg" alt="selfie" width="220"/>
-            </div>
-            <hr>
-            <div class="contact">
-            <h3>Connect</h3>
-                chung.lucy96@yahoo.com
-                <br>
-                LinkedIn.com/in/lucychung-2023
-            </div>
+    <div class="column left">
+        <div class="column img">
+            <img src="static/images/lucyprofile.jpg" alt="selfie" width="220"/>
         </div>
-
+        <hr>
+        <h3>Connect</h3>
+            chung.lucy96@yahoo.com
+            <br>
+            LinkedIn.com/in/lucychung-2023
+    </div>
 
    <div id="context">
         <div id="parent"></div>
@@ -56,28 +58,19 @@
     </div>
     <div id="modal">
         <div class="column middle">
-            <div id="home">
+            <div id="middlecontent">
 
+                </div>
+
+
+
+                <div class="section" id="section_1">
                 <h2>About me</h2>
-                <hr>
+
                 <p>
                     I am an <strong>early developer </strong>with 6 months of self-taught experience and 1 semester into my Master's program in IT Innovation.
                     Because I have a <strong>passionate curiosity</strong> to learn about how <strong> systems interact & communicate</strong>, I decided to
                     gain skills in technology so that I can apply them create my own effective systems while applying principles from Neuroscience.
-
-                    <br>
-                    <br>
-
-                    I started my academic journey in Neuroscience because I was really interested
-                    in understanding how human behavior was tied to well-defined neuro-circuitry.
-                    When I realized that you can apply principles from Cognitive Neuroscience
-                    to create and <strong>innovate</strong> systems that complimented human behavior
-                    and even thought processes, I became interested in learning how I could do this
-                    which brought me to the field of technology.
-
-                    <br>
-                    <br>
-                    "To improve the <em>buttons we push</em> to reconcile human behavior and productivity, and overall, the progression of humanity."
 
                     <br>
                     <br>
@@ -90,19 +83,21 @@
                     <br>
                     <br>
                     <br>
+
+
                 </p>
-                <h2 style="font-size:24.5px;">Core Values</h2>
+                <h2 style="font-size:25px;">Core Values</h2>
                 <hr>
                 <p>
 
                 <ul>
-                    <li><strong>To learning & maintaining an honest perspective</strong>
+                    <li><strong>To learn & maintain an honest perspective</strong>
                         to understand all sides of the past and the current views on social issues</li>
                     <br>
-                    <li><strong> To committing to justice </strong>
+                    <li><strong> To commit to justice </strong>
                         & restoring balance by questioning measures of preference that disable the most marginalized</li>
                     <br>
-                    <li><strong>To having a hermeneutic for generosity</strong>
+                    <li><strong>To have a hermeneutic for generosity</strong>
                         & to defy indifference for there will always be a story that I have not heard and problems that others face that I have not come to comprehend</li>
                     <br>
                     <li><strong>To being present to one’s self and one’s surroundings</strong>
@@ -111,6 +106,7 @@
             </p>
 
             </div>
+        </div>
         </div>
 
     <div class="column right">
@@ -136,24 +132,26 @@
     </div>
 
     <div class="column middle">
+        <div class="section" id="section_2">
         <div id="skills">
             <h2>Skills</h2>
             <hr>
             <p>
             <br>
                 <ul>
-                  <li>Agile development throughout each phase of SDLC</li>
+                  <li>Project development in an Agile environment throughout each phase of SDLC</li>
                 <br>
-                  <li>Quickly learn and apply new programming languages</li>
+                  <li>Can quickly pick up and apply new programming languages</li>
                 <br>
-                  <li>Identifying business problems to create system requirements and models
+                  <li>Identify business problems to create system requirements and models
                       <br><em>Use cases/diagrams, Data flow diagrams, Swim lane models</em></li>
                 <br>
-                  <li>Building data models applying database design principles
+                  <li>Build data models applying database design principles
                       <br><em>Entity-relationship diagrams</em></li>
                 </ul>
             </p>
 
+        </div>
         </div>
     </div>
 
@@ -173,12 +171,14 @@
         </div>
     </div>
 
+
     <div class="column middle">
         <div id="projects">
-        <h2>Projects</h2>
+            <div class="section" id="section_3">
+            <h2>Projects</h2>
         <hr>
             <div class="accordion">
-                <div class="project">1. Portfolio</div><span class="pdate">Apr - May '21</span>
+                <div class="project">1. Professional Portfolio</div><span class="pdate">Apr - May '21</span>
             </div>
             <div class="panel">
                 <p>
@@ -223,11 +223,11 @@
             </div>
                 <div class="panel">
                     <br>
-                    This project focused on the planning and initiation phase in the SDLC.
+                    This project focused primarily on project planning and initiation involved in the SDLC.
                     <br>
                 </div>
 
-            <h2 style="font-size:24.5px;">Other notable projects</h2>
+            <h2 style="font-size:25px;">Other notable projects</h2>
             <hr>
             <div class="accordion">
                 <div class="project">Attenuating Gender Stereotype using LinkedIn research proposal</div><span class="pdate">Jan - May '21</span>
@@ -239,8 +239,7 @@
                     <br>
                     <br>
                         <em>Research on gender inequalities within leadership roles has been popularly explained by the ceiling effect which describes how gender stereotypes prevent women from attaining positions of power. Using the Stereotype Content Model (SCM), this study will explore whether observing a female succeeding in a leadership position will be enough to mitigate these stereotypes through associations between status and competence. Incorporating modern-day recruiting tool LinkedIn in the experimental design, we will test how the gender of a successful CEO affects which candidates are chosen and how candidates are assessed on dimensions of the SCM and leadership qualities.  This study will also explore whether bias from physical attractiveness plays a role when gender stereotypes have been mitigated. The value of this research will contribute to how gender stereotypes are reinforced and can be mitigated as well as question the value of photos in social media involved in modern-day recruiting.
-                        </em>
-                            <br>
+                    <br>
                     <br>
                             <strong>Keywords:</strong> Recruitment, Gender Inequality, Stereotype Content Model, Physical Attraction
                 </em></p>
@@ -261,7 +260,7 @@
                 </p>
             </div>
 
-
+            </div>
 
             <script>
             var acc = document.getElementsByClassName("accordion");
@@ -302,6 +301,7 @@
 
 
     <div class="column middle">
+        <div class="section" id="section_4">
         <div id="research">
             <h2>Research/Experience</h2>
             <hr>
@@ -327,12 +327,13 @@
                 <ul>
                     <li>Collected neuronal data & analyzed data using NeuroExplorer from live mice</li>
                     <li>Investigated the modifications of NMDA and glutamate receptors affected in mental illnesses</li>
-                    <li><a class="link" href="https://pubmed.ncbi.nlm.nih.gov/31786200/">Link to publication</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/31786200/">Link to publication</a></li>
                 </ul>
 
 
         </div>
     </div>
+        </div>
 
 
     <div class="column right">

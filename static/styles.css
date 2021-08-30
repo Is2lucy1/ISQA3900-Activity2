@@ -587,16 +587,34 @@ html {
   transition: all .6s;
   overflow: hidden;
 }
-.box p{
-  padding: 10px;
+.box .list {
   color: white;
-  padding: 20px;
+  padding-top: 20px;
   margin: 10px;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
+
+.box .list p{
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.box .list ul{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.box .list li{
+  padding: 1px;
+}
+
+
+
+
 .box ul {
-  padding: 10px;
-  color: white;
   padding: 20px;
+  color: white;
   margin: 10px;
   line-height: 1.7;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;

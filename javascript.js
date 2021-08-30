@@ -76,10 +76,10 @@ $(window).scroll(function() {
 
     if(isScrolledIntoView($('#projects')))
     {
-        document.getElementById("intro__button").classList.remove('navbar__active');
-        document.getElementById("project__button").classList.add('navbar__active');
-        document.getElementById("skills__button").classList.remove('navbar__active');
-        document.getElementById("experience__button").classList.remove('navbar__active');
+        document.getElementById("intro__button").classList.remove('navbar__active a');
+        document.getElementById("project__button").classList.add('navbar__active a');
+        document.getElementById("skills__button").classList.remove('navbar__active a');
+        document.getElementById("experience__button").classList.remove('navbar__active a');
     }
 
     if(isScrolledIntoView($('#experience')))
